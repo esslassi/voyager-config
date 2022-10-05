@@ -1,0 +1,26 @@
+{
+    "name": "esslassi/voyager-config",
+    "description": "Voyager configuration in config files",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Esslassi Mohammed",
+            "email": "esslassi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Esslassi\\VoyagerConfig\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Esslassi\\VoyagerConfig\\VoyagerConfigServiceProvider"
+            ]
+        }
+    }
+}
