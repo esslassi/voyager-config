@@ -59,6 +59,11 @@ class VoyagerImportCommand extends Command
 
         $this->info("Starting Voyager config import ...");
 
+        $tables = config('voyager-config.tables');
+        
+        if( !empty($tables) )
+            $this->tables = $tables;
+
         foreach ($this->tables as $table) {
             $this->line("Importing {$table}...");
 

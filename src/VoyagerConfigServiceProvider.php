@@ -6,7 +6,6 @@ use Illuminate\Support\ServiceProvider;
 use Esslassi\VoyagerConfig\Console\Commands\VoyagerExportCommand;
 use Esslassi\VoyagerConfig\Console\Commands\VoyagerImportCommand;
 use Esslassi\VoyagerConfig\Console\Commands\VoyagerClearCommand;
-use Illuminate\Support\Facades\Config;
 
 class VoyagerConfigServiceProvider extends ServiceProvider
 {
